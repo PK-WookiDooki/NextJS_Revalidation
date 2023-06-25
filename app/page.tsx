@@ -1,5 +1,6 @@
-import Image from "next/image";
 import Posts from "./components/Posts";
+
+export const revalidate = 10;
 
 export default function Home() {
   return (
